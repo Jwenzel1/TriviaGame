@@ -3,11 +3,11 @@ $(document).ready(function(){
   var timerId;
   var questions = ["Is the sky blue?", "Am I insane?", "Who are you?"];
   var choices = [
-    ["yes", "no", "maybe", "probably"],
-    ["yes", "no", "maybe", "probably"],
-    ["yes", "no", "maybe", "probably"]
+    ["Yes", "No", "Maybe", "Chirp"],
+    ["Yes", "Yes", "Yes", "Yes"],
+    ["Peter", "Gerald", "Chester", "Cerulean Blue"]
   ];
-  var answers = ["maybe", "yes", "no"];
+  var answers = ["Chirp", "Yes", "Chester"];
   var usedQuestions = [];
   var usedChoices = [];
   var usedAnswers = [];
@@ -160,7 +160,7 @@ $(document).ready(function(){
       incorrectScore = 0;
     }
   }
-
+  //program entry point
   $("button").on("click", function(){
     $("button").toggle();
     setupTheNextQuestion();
