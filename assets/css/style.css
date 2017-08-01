@@ -1,0 +1,46 @@
+html{
+  font-size: 16px;
+  font-weight: bold;
+
+}
+
+body{
+  background-image: url("../images/dark-triangles.png");
+  color: white;
+}
+
+h1{
+  font-size: 2.5rem;
+}
+
+p{
+  font-size: 2rem;
+}
+
+button{
+  border-radius: 3px;
+  border-color: #fa00d2;
+  background-color: #fa00d2;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.jumbotron{
+  background-color: transparent;
+}
+
+#answerChoices p{
+  color: black;
+}
+
+#playArea{
+  text-align: center;
+}
+
+#answerChoices p{
+  width: 80%;
+  padding: 10px 0px;
+  margin: 10px auto;
+  background-color: #d1d1d1;
+  font-weight: bold;
+}
